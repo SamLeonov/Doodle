@@ -1,0 +1,31 @@
+#container{
+display:grid;
+grid-template-columns: repeat(32,1fr);
+grid-gap: 0px;
+
+position:absolute;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+}
+.square{
+background-color:grey;
+border:solid;
+border-color:grey;
+}
+
+html {
+margin:0px;
+  height: 100%;
+}
+body {
+margin:0px;
+  min-height: 100%;
+}
+
+.colored{
+background-color:red;
+border:solid;
+border-color:red;
+}
