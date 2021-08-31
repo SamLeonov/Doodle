@@ -1,5 +1,5 @@
 const container = document.getElementById('container');
-let count = prompt('How many squares per side?');
+let count = 32;
 container.style.gridTemplateColumns='repeat('+count+' 1fr);';
 
 for(let i=1;i<=count*count;i++) {
